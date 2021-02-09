@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75031fce-ddba-42ff-b912-2bb99dfa52f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/academind_django.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/migrations/0002_auto_20210208_1814.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/migrations/0003_book_slug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/migrations/0004_auto_20210209_1040.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/migrations/0005_auto_20210209_1053.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/migrations/0006_auto_20210209_1430.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/migrations/0007_auto_20210209_1440.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/templates/book_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_outlet/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_outlet/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenges/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenges/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monthly_challenges/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/monthly_challenges/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_site/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_site/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_site/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_site/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_site/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_site/wsgi.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oEe9XXRNPUqHSVMKYGSWgSJfL0" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="academind_django" type="Python.DjangoServer" factoryName="Django server">
+      <module name="academind_django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75031fce-ddba-42ff-b912-2bb99dfa52f8" name="Default Changelist" comment="" />
+      <created>1612856027036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612856027036</updated>
+      <workItem from="1612856037998" duration="7763000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
