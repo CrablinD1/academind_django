@@ -1,5 +1,6 @@
-from django.db import models
 from django.core.validators import MinLengthValidator
+from django.db import models
+from django.utils.text import slugify
 
 
 class Tag(models.Model):
@@ -25,12 +26,20 @@ class Post(models.Model):
     title = models.CharField(max_length=150)
     excerpt = models.CharField(max_length=200)
     image = models.ImageField(upload_to='posts', null=True)
-    date = models.DateField(auto_now=True)
+    date = models.DateTimeField(auto_now=True)
     slug = models.SlugField(unique=True, db_index=True)
     content = models.TextField(validators=[MinLengthValidator(10)])
     author = models.ForeignKey(Author, on_delete=models.SET_NULL, null=True,
                                related_name='posts')
     tags = models.ManyToManyField(Tag)
+
+    def __str__(self):
+        return self.title
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = slugify(self.title)
+        super(Post, self).save(*args, **kwargs)
 
 
 class Comment(models.Model):

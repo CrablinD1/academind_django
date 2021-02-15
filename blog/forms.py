@@ -1,5 +1,6 @@
 from django import forms
-from .models import Comment
+
+from .models import Comment, Post
 
 
 class CommentForm(forms.ModelForm):
@@ -11,3 +12,9 @@ class CommentForm(forms.ModelForm):
             'user_email': 'Your email',
             'text': 'Your comment'
         }
+
+
+class NewPostForm(forms.ModelForm):
+    class Meta(object):
+        model = Post
+        exclude = ['date', 'slug']
